@@ -14,13 +14,13 @@ def main():
     y = data['y']
 
 
-    model_X1 = LR()
+    model_v1 = LR()
 
 
-    model_X1.fit(X, y)
+    model_v1.fit(X, y)
 
 
-    predictions_1 = model_X1.predict(X)
+    predictions_1 = model_v1.predict(X)
 
 
     print("Predictions 1 X:", predictions_1)
@@ -33,13 +33,13 @@ def main():
     y = data['y']
 
 
-    model_X2 = LR()
+    model_v2 = LR()
 
 
-    model_X2.fit(X, y)
+    model_v2.fit(X, y)
 
 
-    predictions_2 = model_X2.predict(X)
+    predictions_2 = model_v2.predict(X)
 
 
     print("Predictions 2 X:", predictions_2)
