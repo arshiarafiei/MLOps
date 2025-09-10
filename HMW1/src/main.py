@@ -3,6 +3,7 @@
 import pandas as pd
 from model.model_LR import LR
 from sklearn.metrics import r2_score, mean_squared_error
+from visulization.visu import bar_plot
 
 def main():
     
@@ -48,6 +49,8 @@ def main():
     mse_2 = mean_squared_error(y, predictions_2)
     print("Mean Squared Error for 1 X:", mse_1)
     print("Mean Squared Error for 2 X:", mse_2)
+
+    bar_plot(mse_1, mse_2)
 
 
 
