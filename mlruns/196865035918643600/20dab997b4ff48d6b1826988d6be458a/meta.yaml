@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/196865035918643600/20dab997b4ff48d6b1826988d6be458a/artifacts
+end_time: 1759098692630
+entry_point_name: ''
+experiment_id: '196865035918643600'
+lifecycle_stage: active
+run_id: 20dab997b4ff48d6b1826988d6be458a
+run_name: learned-zebra-135
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759098689398
+status: 3
+tags: []
+user_id: tartmsu

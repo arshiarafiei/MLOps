@@ -1,0 +1,28 @@
+artifact_path: mlflow-artifacts:/196865035918643600/models/m-84f83739fd0a41cc95decec8a090bf56/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+is_signature_from_type_hint: false
+mlflow_version: 3.4.0
+model_id: m-84f83739fd0a41cc95decec8a090bf56
+model_size_bytes: 511
+model_uuid: m-84f83739fd0a41cc95decec8a090bf56
+prompts: null
+run_id: 6baea5c12fbe4d28b0a53fc36bb21793
+signature:
+  inputs: '[{"type": "double", "name": "x1", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-09-28 22:31:25.715939'

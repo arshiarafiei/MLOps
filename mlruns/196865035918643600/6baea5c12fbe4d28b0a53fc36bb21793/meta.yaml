@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/196865035918643600/6baea5c12fbe4d28b0a53fc36bb21793/artifacts
+end_time: 1759098689375
+entry_point_name: ''
+experiment_id: '196865035918643600'
+lifecycle_stage: active
+run_id: 6baea5c12fbe4d28b0a53fc36bb21793
+run_name: funny-crow-955
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759098685618
+status: 3
+tags: []
+user_id: tartmsu
